@@ -1,0 +1,24 @@
+{
+  "name": "ok-quiz",
+  "version": "1.0.0",
+  "description": "This is a appliaction to dynamically generate quiz from user account",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadMaxINDIAN/OK-QUIZ.git"
+  },
+  "keywords": [
+    "quiz",
+    "MERN",
+    "stack"
+  ],
+  "author": "MadMaxINDIAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadMaxINDIAN/OK-QUIZ/issues"
+  },
+  "homepage": "https://github.com/MadMaxINDIAN/OK-QUIZ#readme"
+}
