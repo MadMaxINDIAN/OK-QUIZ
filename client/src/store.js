@@ -6,11 +6,11 @@ const initialState = {}
 
 const middleware = [thunk]
 
-const ok_data = createStore(
+const OK_QUIZ = createStore(
     rootReducer,
     initialState,
     compose(applyMiddleware(...middleware),
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
     ));
 
-export default ok_data;
+export default OK_QUIZ;
