@@ -5,7 +5,6 @@ const jwt = require("jsonwebtoken");
 const keys = require("../config/key");
 const passport = require("passport");
 require("../config/user_passport")(passport)
-const isEmpty = require("./../validation/is_empty");
 
 // Load input validation
 const validateRegisterInput = require("./../validation/register")
@@ -128,3 +127,5 @@ router.get("/current",passport.authenticate('user-jwt',{session:false}),(req,res
         email : req.user.email
     })
 })
+
+module.exports = router;
